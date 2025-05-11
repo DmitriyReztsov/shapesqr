@@ -8,7 +8,7 @@ def readme():
 
 setup(
     name="shapesqr",
-    version="0.0.1",
+    version="0.0.2",
     author="DmitriyReztsov",
     author_email="rezcov_d@mail.ru",
     description="This is the test task module for shapes square calculation.",
