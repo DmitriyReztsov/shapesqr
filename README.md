@@ -38,7 +38,12 @@ Using the library is as simple and convenient as possible:
     circle.get_shape_type()  # "circle"
     
     circle.calculate_square()
-    status, result = shape.get_calculated_result()  # 1 - for OK, -1 - for NOK, 0 - default
+    status, result = circle.get_calculated_result()  # (1, 3.14...)
+
+    triangle = ShapeFabric().get_shape((3, 4, 5))
+    triangle.calculate_square()
+    status, result = triangle.get_calculated_result()  # (1, 6)
+    triangle.is_right()  # true
 ```
 
 
