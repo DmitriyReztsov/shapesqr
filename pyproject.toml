@@ -1,16 +1,19 @@
 [build-system]
-requires = ["hatchling >= 1.26", "typing-extensions==4.13.2"]
+requires = ["hatchling >= 1.26"]
 build-backend = "hatchling.build"
 
 [project]
 name = "shapesqr"
-version = "0.0.1"
+version = "0.0.3"
 authors = [
   { name="Dmitriy Reztsov", email="rezcov_d@mail.ru" },
 ]
 description = "This is a test task module for shapes square calculation."
 readme = "README.md"
 requires-python = ">=3.10"
+dependencies = [
+  "typing-extensions==4.13.2",
+]
 classifiers = [
     "Programming Language :: Python :: 3",
     "Operating System :: OS Independent",
