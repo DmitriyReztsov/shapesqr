@@ -14,7 +14,7 @@ setup(
     description="This is the test task module for shapes square calculation.",
     long_description=readme(),
     long_description_content_type="text/markdown",
-    url="your_url",  # TODO add
+    url="https://github.com/DmitriyReztsov/shapesqr",
     packages=find_packages(),
     install_requires=[],
     classifiers=[
