@@ -16,9 +16,9 @@ setup(
     long_description_content_type="text/markdown",
     url="https://github.com/DmitriyReztsov/shapesqr",
     packages=find_packages(),
-    install_requires=[],
+    install_requires=["typing-extensions-4.13.2"],
     classifiers=[
-        "Programming Language :: Python :: 3.11",
+        "Programming Language :: Python :: 3.10",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
